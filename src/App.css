@@ -1,0 +1,53 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.bordered-input {
+  border: 2px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+.padded-button {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table th,
+.table td {
+  white-space: nowrap;
+}
+.form {
+  max-width: 500px;
+}
+
+.bordered-input {
+  border: 2px solid #3b73a3;
+  background-color: #4a82c1;
+  color: white;
+}
+
+.bordered-input:focus {
+  border-color: #3b73a3;
+  background-color: #4a82c1;
+  box-shadow: none;
+}
+
+.border-values {
+  color: black;
+  padding: 12px 12px 0px 12px;
+  border-bottom: 2px solid #3b73a3;
+  height: 38px;
+}
